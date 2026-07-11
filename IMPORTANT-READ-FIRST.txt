@@ -1,0 +1,39 @@
+⚠️⚠️⚠️ IMPORTANT - READ THIS FIRST ⚠️⚠️⚠️
+
+BEFORE THE WEBSITE WILL WORK, YOU MUST:
+
+1. Save your flyer design image as "flyer-template.jpg"
+2. Put it in the same folder as index.html
+3. Make sure the file is named EXACTLY: flyer-template.jpg
+
+The website uses YOUR actual flyer as the background, then adds the user's
+photo in the circular area and their name where "DAVID MALGWI" appears.
+
+QUICK STEPS:
+============
+1. Find your flyer design image file (the one you showed me)
+2. Rename it to: flyer-template.jpg
+3. Put it in this folder (same folder as index.html)
+4. Open index.html in your browser to test
+5. Upload a photo and name to check positioning
+6. If photo/name don't line up perfectly, see README.md for adjustment instructions
+
+TESTING:
+========
+After adding your flyer image:
+- Open index.html in Chrome, Firefox, or Edge
+- Upload a test photo
+- Type a test name  
+- Check if they appear in the right spots on your flyer
+- Adjust CSS values if needed (instructions in README.md)
+
+HOSTING:
+========
+Once everything looks good:
+- Upload to Netlify (easiest - just drag and drop)
+- Or use GitHub Pages, Vercel, etc.
+- Share the link with your church members!
+
+Questions? Check README.md for full details.
+
+God bless! 🙏

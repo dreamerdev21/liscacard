@@ -1,0 +1,73 @@
+═══════════════════════════════════════════════════════════
+   LISCA FLYER GENERATOR - SETUP CHECKLIST
+═══════════════════════════════════════════════════════════
+
+Follow these steps IN ORDER:
+
+[ ] STEP 1: Get your flyer image ready
+    └─ Find your flyer design (the one with David Malgwi's photo)
+    └─ It should be the complete flyer with all text and graphics
+    
+[ ] STEP 2: Rename the image
+    └─ Rename it to exactly: flyer-template.jpg
+    └─ Must be .jpg format (not .png, not .jpeg)
+    
+[ ] STEP 3: Place the image file
+    └─ Put flyer-template.jpg in the SAME FOLDER as index.html
+    └─ They must be side-by-side in the same directory
+    
+[ ] STEP 4: Test it
+    └─ Double-click index.html to open it in your browser
+    └─ You should see your flyer design as the background
+    
+[ ] STEP 5: Check photo positioning
+    └─ Click "Upload Photo" and add a test photo
+    └─ Does it appear in the circular area? ✓ YES / ✗ NO
+    └─ If NO, you need to adjust CSS (see README.md)
+    
+[ ] STEP 6: Check name positioning  
+    └─ Type a test name in the name field
+    └─ Does it appear where "DAVID MALGWI" is? ✓ YES / ✗ NO
+    └─ If NO, you need to adjust CSS (see README.md)
+    
+[ ] STEP 7: Test download
+    └─ Click "Download as PNG"
+    └─ Does it download with photo and name? ✓ YES / ✗ NO
+    
+[ ] STEP 8: Host online
+    └─ Upload to Netlify, GitHub Pages, or Vercel
+    └─ Get your website link
+    
+[ ] STEP 9: Share
+    └─ Share the link with your church members
+    └─ Test that they can create and download their flyers
+
+═══════════════════════════════════════════════════════════
+
+COMMON ISSUES:
+
+❌ "Background image not showing"
+   → Make sure file is named exactly: flyer-template.jpg
+   → Make sure it's in the same folder as index.html
+   
+❌ "Photo not in the right position"
+   → Open index.html in text editor
+   → Find: .user-photo { top: 37%; }
+   → Change 37% to move it up or down
+   
+❌ "Name not in the right position"  
+   → Open index.html in text editor
+   → Find: .user-name { top: 60%; }
+   → Change 60% to move it up or down
+
+❌ "Photo is too big/small"
+   → Open index.html in text editor
+   → Find: .user-photo { width: 32%; }
+   → Change 32% to make it bigger or smaller
+
+═══════════════════════════════════════════════════════════
+
+NEED HELP?
+Check README.md for detailed instructions and examples.
+
+═══════════════════════════════════════════════════════════
